@@ -5,8 +5,8 @@ Step 1: Download this Repo : https://github.com/rounaksuthar/SpringRestfull and 
 Step 2: Run Step 2 Application using Run as ---> Spring boot
 
 Step 3: open Command Prompt: type these command : 
-------> cd C:\Program Files (x86)\Google\Chrome\Application
-------> chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
+command 1------> cd C:\Program Files (x86)\Google\Chrome\Application
+command 2------> chrome.exe --user-data-dir="C:/Chrome dev session" --disable-web-security
 
 Step 4: A new Chrome Window will be prompt. kindly hit the link to new chrome window: https://rounaksuthar.github.io/AngularApp/
 
