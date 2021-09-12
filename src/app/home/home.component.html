@@ -1,0 +1,23 @@
+
+<p>home works!</p>
+<button [style.height.px]='btnHeight' [style.width.px]='btnWidth'>Add Product</button>
+{{name}}
+
+<button (click)="addProduct()">button1</button>
+
+hi{{greetMessage}}
+
+<button (click)='valueChanged()'>click here</button>
+Enter the Name: <input type="text" [(ngModel)]='name'/>
+
+<h3>{{name}}</h3>
+<p appHlight>{{name}}</p>
+<div *ngIf='showMessage'>
+ showMessage is true
+</div>
+
+<table>
+    <tr *ngFor='let d of data'>
+        <td>{{d.course}}</td>
+    </tr>
+</table>

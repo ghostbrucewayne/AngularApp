@@ -1,0 +1,16 @@
+<div class="login-form container">
+    <form class="form-horizontal" #loginForm="ngForm" [formGroup]="formGroup" (validSubmit)="onSubmit()">
+		<h2>Login</h2>
+        <div class="form-group">
+        	<input type="text" class="form-control" formControlName="UserName" [(ngModel)]="email" placeholder="UserName" required="required">
+        </div>
+		<div class="form-group">
+            <input type="password" class="form-control" formControlName="Password" [(ngModel)]="password" placeholder="Password" required="required">
+        </div>
+		<div class="form-group">
+            <button type="submit" class="btn btn-success btn-lg btn-block">Login</button>
+            <button type="button" class="btn btn-primary btn-lg btn-block" (click)="onReset()">Reset</button>
+        </div>
+    </form>
+	<div class="text-center">Don't have an account? <a style="color: black;" routerLink="/register" >Sign up</a></div>
+</div>

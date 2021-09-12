@@ -1,0 +1,12 @@
+.login-btn{
+    border: #000f solid 1px;
+    
+}
+.logout-btn{
+    border: #000f solid 1px;
+    
+}
+
+a:hover{
+    background-color: rgb(138, 138, 138)
+}
